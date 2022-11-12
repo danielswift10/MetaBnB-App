@@ -1,0 +1,169 @@
+.metabnb-nft{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    margin: 80px 0 0;
+    padding: 80px 0;
+}
+
+.metabnb-nft-body{
+    width: 89%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+
+.metabnb-text h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.metabnb-text p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.metabnb-text .learn-more input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 400;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border-radius: 8px;
+    padding: 13px 25px;
+    /* width: fit-content; */
+    color: #A02279;
+    cursor: pointer;
+}
+
+.metabnb-text .learn-more input:hover{
+    transform: scale(1.04);
+}
+
+.metabnb-image-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+}
+
+.metabnb-image-container img{
+    width: 100%;
+}
+
+.nft-1, .nft-2, .nft-3{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.nft-1:hover{
+    transform: rotate(26deg);
+}
+
+.nft-2:hover{
+    transform: rotate(-18deg);
+}
+
+.nft-3:hover{
+    transform: rotate(9deg);
+}
+
+@media only screen and (min-width: 500px){
+    .metabnb-text h1{
+        font-size: 45px;
+    }
+
+    .metabnb-text p{
+        font-size: 20px;
+    }
+
+    .metabnb-text .learn-more input{
+        font-size: 18px;
+    }
+
+    .metabnb-image-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        /* position: relative; */
+        /* min-height: 60vh; */
+        width: 89%;
+        margin: 0 auto;
+    }
+/* 
+    .nft-1{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        z-index: 1;
+    }
+
+    .nft-2{
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+
+    .nft-3{
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+        z-index: 2;
+    } */
+}
+
+@media only screen and (min-width: 1024px) {
+    .metabnb-nft-body{
+        width: 89%;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 60px;
+    }
+
+    .metabnb-image-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        min-height: 60vh;
+        width: 89%;
+        margin: 0 auto;;
+    }
+
+    .nft-1{
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        width: 80%;
+        z-index: 1;
+    }
+
+    .nft-2{
+        position: absolute;
+        top: 40px;
+        left: 130px;
+        width: 75%;
+    }
+
+    .nft-3{
+        position: absolute;
+        bottom: 70px;
+        left: 160px;
+        width: 70%;
+        z-index: 2;
+    }
+
+    
+}

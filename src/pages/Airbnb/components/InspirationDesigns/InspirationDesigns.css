@@ -1,0 +1,120 @@
+.inspiration-designs-body{
+    width: 89%;
+    margin: 0 auto;
+}
+
+.inspiration-designs-body h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.houses{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    gap: 30px;
+}
+
+.house-wrapper{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding: 16px 14px;
+}
+
+.house-image img{
+    width: 100%;
+}
+
+.house-image{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.house-image:hover{
+    opacity: .7;
+}
+
+.name-token, .distance-duration{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    font-weight: 400;
+}
+
+.name-token{
+    margin: 20px 0 10px;
+}
+
+.name-token .token{
+    font-weight: 700;
+}
+
+.distance-duration{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.ratings span img{
+    width: 17px;
+    margin-right: 6px;
+}
+
+@media only screen and (min-width: 520px) {
+    .houses{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .name-token, .distance-duration{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        font-weight: 400;
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .houses{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .distance-duration{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .inspiration-designs-body h1{
+        font-size: 37px;
+    }       
+}
+
+@media only screen and (min-width: 1200px) {
+    .inspiration-designs-body h1{
+        font-size: 45px;
+    } 
+
+    .houses{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .name-token{
+        font-size: 15px;
+    }
+
+    .distance-duration{
+        font-size: 13px;
+    }
+}
