@@ -40,6 +40,7 @@ const InspirationDesigns = () => {
             </div>
         </section>
      );
+
 }
  
 export default InspirationDesigns;
