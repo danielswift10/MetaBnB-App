@@ -1,2 +1,2 @@
 # MetaBnB-App
-## LIVE URL: https://swift-metabnb.netlify.app/
+## LIVE URL: https://swiftel-metabnb.netlify.app/
