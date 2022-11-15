@@ -24,3 +24,4 @@ export const FooterData = [
         sublink4: 'Contact Us',
     },
 ]
+
