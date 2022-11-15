@@ -12,12 +12,9 @@ function App() {
         <Route path='/'  element={<Metabnb/>}/>
         <Route path='/place-to-stay'  element={<Venues/>}/>
         <Route path='/modal'  element={<Modal/>}/>
-        {/* <Route path='*'  element={<ErrorPage/>}/> */}
       </Routes>
     </div>
     </BrowserRouter>
-    
-
   );
 }
 
