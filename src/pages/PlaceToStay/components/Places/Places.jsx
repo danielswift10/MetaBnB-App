@@ -55,5 +55,6 @@ const Places = () => {
         </section>
      );
 }
+
  
 export default Places;
