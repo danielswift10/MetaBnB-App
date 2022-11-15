@@ -56,6 +56,9 @@
     width: 100%;
 }
 
+.metabnb-image-group{
+    display: none;
+}
 .nft-1, .nft-2, .nft-3{
     transition: all .2s ease-in-out;
     cursor: pointer;
@@ -126,7 +129,7 @@
         margin: 0 auto;
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.2fr;
         grid-template-rows: auto;
         gap: 60px;
     }
@@ -139,7 +142,16 @@
         position: relative;
         min-height: 60vh;
         width: 89%;
-        margin: 0 auto;;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .metabnb-image-group{
+        display: block;
+    }
+
+    .metabnb-image-group img{
+        width: 100%;
     }
 
     .nft-1{

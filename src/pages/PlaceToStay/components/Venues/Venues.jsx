@@ -11,7 +11,6 @@ const Venues = () => {
                 <Places/>
             </main>
             <Footer/>
-
         </div>
      );
 }

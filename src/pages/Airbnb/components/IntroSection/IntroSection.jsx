@@ -14,7 +14,7 @@ const IntroSection = () => {
                     <h1>
                         <span>Rent a</span>
                         <span className="highlight"> Place</span>
-                        <span> away From</span>
+                        <span> away from</span>
                         <span className="highlight"> Home</span>
                         <span> in the</span>
                         <span className="highlight"> Metaverse</span>
