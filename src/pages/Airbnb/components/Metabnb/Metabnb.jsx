@@ -19,4 +19,5 @@ const Metabnb = () => {
      );
 }
  
+
 export default Metabnb;
